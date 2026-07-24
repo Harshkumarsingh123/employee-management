@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: employee-management
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: kldfkerjoewjojewrodsjjdsjosd23p3plmwep09u23kjwmkdjosadkjbhsadijh
+  expiration: 86400000
