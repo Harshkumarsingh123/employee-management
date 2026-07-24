@@ -12,3 +12,8 @@ spring:
   sql:
     init:
       mode: never
+
+
+jwt:
+  secret: kldfkerjoewjojewrodsjjdsjosd23p3plmwep09u23kjwmkdjosadkjbhsadijh
+  expiration: 86400000
